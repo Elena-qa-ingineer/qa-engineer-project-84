@@ -11,7 +11,7 @@ bugreports:
       Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
       ОС MacOs Sequoia 15.1.1
     steps-to-reproduce: |
-      1. Зайти на страницу интернет магазина https://hexlet-products-store.vercel.app/
+      1. Зайти на страницу интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Нажать ссылку "Поиск"
       3. Ввести ключевое слово 
     expected-result: |
@@ -31,17 +31,42 @@ bugreports: []
 test-cases:
   - summary: |
       Проверка что у пользователя есть возможность искать товары по производителю
-    status: pass
+    status: fail
 
-bugreports: []
+bugreports: 
+ - summary: |
+      Не работает поиск товара по производителю
+    environment: |
+      Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+      ОС MacOs Sequoia 15.1.1
+    steps-to-reproduce: |
+      1. Зайти на страницу интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Выбрать производителя
+    expected-result: |
+      На главной старнице отобразятся товары по выбранному производителю
+    actual-result: |
+      Ничего не происходит
 
 ---
 test-cases:
   - summary: |
       Проверка что у пользователя есть возможность искать товары по цене
-    status: pass
+    status: fail
 
-bugreports: []
+bugreports: 
+- summary: |
+      Не работает поиск товара по цене
+    environment: |
+      Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+      ОС MacOs Sequoia 15.1.1
+    steps-to-reproduce: |
+      1. Зайти на страницу интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Набрать сумму "От"
+      3. Набрать сумму "До"
+    expected-result: |
+      На главной старнице отобразятся товары по выбранной цене
+    actual-result: |
+      Ничего не происходит
 
 ---
 test-cases:
@@ -55,7 +80,7 @@ bugreports: []
 test-cases:
   - summary: |
       Проверка того что у пользователя отображается подробная информация о товаре
-    status: pass
+    status: fail
 
 bugreports:
   - summary: |
@@ -87,7 +112,3 @@ test-cases:
     status: pass
 
 bugreports: []
-
-
-
-
