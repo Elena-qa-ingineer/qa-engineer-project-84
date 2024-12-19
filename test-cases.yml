@@ -6,8 +6,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Ключевое слово = тушь
+    no-data
   steps:
     - В строку поиска вводим "Тушь"
     - Нажать "Enter"
@@ -21,7 +20,7 @@
   prerequisites:
     no-data
   test-data: |
-    На сайте нет строки поиска
+    no-data
   steps:
     - Посмотреть страницу интернет-магазина
   expected-result: |
@@ -34,8 +33,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Категория = красота
+    no-data
   steps:
     - На сайте нажать кнопку "Категория"
     - Выбрать "Красота"
@@ -50,7 +48,7 @@
   prerequisites:
     no-data
   test-data: |
-    На сайте нет вкладки "Категория"
+    no-data
   steps:
     - Посмотреть страницу интернет-магазина
   expected-result: |
@@ -63,8 +61,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Открыт сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Посмотреть есть ли на сайте возможность фильрации товаров по производителю
     - Выбрать производителя "Essence"
@@ -78,7 +75,7 @@
   prerequisites:
     no-data
   test-data: |
-    Открыт сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Посмотреть есть ли на сайте поиск товаров по производителю
   expected-result: |
@@ -91,8 +88,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Открыт сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Посмотреть есть ли на сайте возможность фильрации товаров по цене
     - Выбрать диапозон цен от 300 до 500
@@ -106,7 +102,7 @@
   prerequisites:
     no-data
   test-data: |
-    Открыт сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Посмотреть есть ли на сайте поиск товаров по цене
   expected-result: |
@@ -119,8 +115,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Открыть главную страницу сайта
     - Проверить есть ли товары
@@ -135,7 +130,7 @@
   prerequisites:
     no-data
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Открыть главную страницу сайта
   expected-result: |
@@ -148,8 +143,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Проверить есть ли подробная информация о товаре
   expected-result: |
@@ -162,7 +156,7 @@
   prerequisites:
     Открыта страница товара
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Изучить страницу товара
   expected-result: |
@@ -175,8 +169,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Добавить товар в корзину
   expected-result: |
@@ -189,8 +182,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Тестовые данные 
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps:
     - Добавить товар в корзину
   expected-result: |
@@ -203,7 +195,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps: |
     - Нажать на кнопку "Корзина"
   expected-result: |
@@ -216,7 +208,7 @@
   prerequisites: |
     no-data
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    no-data
   steps: |
     - Нажать на кнопку "Корзина"
   expected-result: |
