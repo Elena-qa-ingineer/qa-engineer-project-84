@@ -2,7 +2,7 @@
 - summary: |
     Не работает поиск по ключевому слову
   environment: |
-  Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+  Google Chrome  131.0.6778.140 (Официальная сборка) (arm64)
   ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
     1. Зайти на страницу интернет магазина https://hexlet-products-store.vercel.app/
@@ -16,7 +16,7 @@
 - summary: |
     Не отображается подробная информация о товаре
   environment: |
-    Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+    Google Chrome  131.0.6778.140 (Официальная сборка) (arm64)
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
     1. Зайти на страницу интернет магазина https://hexlet-products-store.vercel.app/
