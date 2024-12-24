@@ -24,4 +24,17 @@ test-cases:
       Проверка добавления товара в корзину
     status: pass
 
-bugreports: []
+bugreports: 
+- summary: |
+    Ошибка "500"
+  environment: |
+    Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+    ОС MacOs Sequoia 15.1.1
+  steps-to-reproduce: |
+    1. Открыть Devtools
+    2. Нажать "Network"
+    3. Оформить заказ
+   expected-result: |
+      Заказ успешно оформлен
+  actual-result: |
+      Ошибка "500"
