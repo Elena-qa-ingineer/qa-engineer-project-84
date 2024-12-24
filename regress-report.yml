@@ -26,7 +26,7 @@ test-cases:
 
 bugreports: 
 - summary: |
-    Ошибка "500"
+    Ошибка "500" при оформлении заказа
   environment: |
     Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
     ОС MacOs Sequoia 15.1.1
