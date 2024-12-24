@@ -2,19 +2,19 @@
 test-cases:
   - summary: |
       Проверка поиска ключевому слову
-    status: pass
+    status: fail
 
   - summary: |
       Проверка поиска по категории
-    status: pass
+    status: fail
 
   - summary: |
       Проверка поиска по бренду
-    status: pass
+    status: fail
 
   - summary: |
       Проверка поиска по цене
-    status: pass
+    status: fail
 
   - summary: |
       Проверка открытия карточки товара
@@ -38,3 +38,18 @@ bugreports:
     Заказ успешно оформлен
   actual-result: |
     Ошибка "500"
+
+- summary: |
+    Отсутствует меню с фильтрами
+  environment: |
+    Google Chrome 131.0.6778.140 (Официальная сборка), (arm64)
+    ОС MacOs Sequoia 15.1.1
+  steps-to-reproduce: |
+    1. Открыть Devtools
+    2. Нажать "Режим эмуляции моб. устройств"
+    3. Выбрать девайс напрмер "Iphone 12 pro"
+  expected-result: |
+    Слева меню для выбора фильтров
+  actual-result: |
+    Отсутствует меню выбора фильров
+
