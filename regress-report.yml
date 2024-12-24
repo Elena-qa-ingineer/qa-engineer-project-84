@@ -34,7 +34,7 @@ bugreports:
     1. Открыть Devtools
     2. Нажать "Network"
     3. Оформить заказ
-   expected-result: |
+  expected-result: |
     Заказ успешно оформлен
   actual-result: |
     Ошибка "500"
