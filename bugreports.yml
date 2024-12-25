@@ -7,7 +7,7 @@
   steps-to-reproduce: |
     1. Зайти в Devtools
     2. Нажать "Режим эмуляции мобильных устройств"
-    3. Выбрать девайс например "Iphone 12 pro"
+    3. Выбрать девайс например, "Iphone 12 pro"
   expected-result: |
     Сайт имеет мобильную версию
   actual-result: |
@@ -19,7 +19,7 @@
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
-    1. Зайти в Devtools
+    1. Зайти в "Devtools"
     2. Нажать "Network"
     3. Оформить заказ
   expected-result: |
