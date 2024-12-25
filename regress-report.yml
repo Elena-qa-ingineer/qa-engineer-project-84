@@ -1,26 +1,26 @@
 ---
 test-cases:
-  - summary: |
+  - summary: 
       Проверка поиска ключевому слову
     status: fail
 
-  - summary: |
+  - summary: 
       Проверка поиска по категории
     status: fail
 
-  - summary: |
+  - summary: 
       Проверка поиска по бренду
     status: fail
 
-  - summary: |
+  - summary: 
       Проверка поиска по цене
     status: fail
 
-  - summary: |
+  - summary: 
       Проверка открытия карточки товара
     status: pass
 
-  - summary: |
+  - summary: 
       Проверка добавления товара в корзину
     status: pass
 
