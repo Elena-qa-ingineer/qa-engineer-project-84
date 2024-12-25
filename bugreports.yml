@@ -15,7 +15,7 @@
 
 - summary: |
     Ошибка 500 при оформлении заказа
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -29,7 +29,7 @@
 
 - summary: |
     При закрытии окна оформлении заказа не работает кнопка "Х"
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -42,7 +42,7 @@
 
 - summary: |
     Нельзя убрать выбранную категорию
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -54,7 +54,7 @@
 
 - summary: |
     При выборе английского языка не отображается изображение флага
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -67,7 +67,7 @@
 
 - summary: |
     После обновления страницы русский язык меняется на английский
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -81,7 +81,7 @@
 
 - summary: |
     После перезагрузки страницы удаленные товары из корзины восстанавливаются 
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
@@ -94,7 +94,7 @@
 
 - summary: |
     При выборе русского языка описание товара на английском
-  enviroment: |
+  environment: |
     Google Chrome  131.0.6778.140 (Официальная сборка) (arm64) 
     ОС MacOs Sequoia 15.1.1
   steps-to-reproduce: |
