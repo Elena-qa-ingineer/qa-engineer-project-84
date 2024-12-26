@@ -24,4 +24,5 @@ test-cases:
       Проверка добавления товара в корзину
     status: pass
 
-bugreports: []
+bugreports: 
+
