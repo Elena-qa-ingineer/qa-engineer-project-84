@@ -35,7 +35,7 @@
   steps-to-reproduce: |
     1. Открыть окно оформления заказа
     2. Нажать кнопку "Х"
-  expected-resuit: |
+  expected-result: |
     Окно закрыто
   actual-result: |
     Окно не закрывается
